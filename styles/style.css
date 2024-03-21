@@ -21,7 +21,6 @@ html {
 }
 
 .content {
-  /* ПРАВАЯ И ЛЕВАЯ ЧАСТЬ НА СТРАНИЦЕ */
   display: flex;
   gap: 30px;
   position: relative;
@@ -30,33 +29,28 @@ html {
 }
 
 .search-form { 
-  /* ГОРОД ВРЕМЯ СУТОК КНОПКА НАЙТИ РАСПОЛОЖЕНИЕ */
   display: flex;
   justify-content: space-between;
   gap: 40px;
 }
 
 .result__video-container {
-  /* КОНТЕЙНЕР С ВИДЕО */
   margin-bottom: 16px;
   position: relative;
   width: fit-content;
 }
 
 .result__video {
-  /* ШИРИНА ВИДЕО И ЛЕВОЙ ЧАСТИ */
   width: 711px;
 }
 
 .content__list {
-  /* ПРАВАЯ ЧАСТЬ КАРТИНКИ */
   overflow-y: auto;
   height: 298px;
   position: relative;
 }
 
 .content__details {
-  /* ПРАВАЯ ЧАСТЬ ПОЛНОСТЬЮ */
   position: absolute;
   bottom: 0;
   left: 741px;
@@ -67,7 +61,6 @@ html {
 }
 
 .title {
-  /* ЗАГОЛОВОК ПОСМОТРИ В ОКНО */
   padding-bottom: 26px;
   font-family: Oswald;
   font-size: 75px;
@@ -80,12 +73,10 @@ html {
 }
 
 .content__accent {
-  /* ПО */
   color: #545050;
 }
 
 .search-form__fieldset-title {
-  /* ГОРОД И ВРЕМЯ СУТОК */
   font-family: Fira Sans Condensed;
   font-size: 18px;
   font-weight: 400;
@@ -97,7 +88,6 @@ html {
 }
 
 .content__video-card-description {
-  /* ОПИСАНИЕ ПОД НАЗВАНИЕМ ГОРОДОВ */
   font-family: Fira Sans Condensed;
   font-size: 18px;
   font-weight: 400;
@@ -113,7 +103,6 @@ html {
 }
 
 .content__video-card-title {
-  /* НАЗВАНИЯ ГОРОДОВ */
   font-family: Oswald;
   font-size: 30px;
   font-weight: 700;
@@ -126,7 +115,6 @@ html {
 }
 
 .content__card-link {
-  /* УБИРАЕТ ССЫЛКИ В НАЗВАНИИ ГОРОДОВ */
   text-decoration: none;
   color: #FFFFFF;
   display: block;
@@ -134,19 +122,16 @@ html {
 }
 
 .content__list-item:not(:last-child) {
-  /* ПРАВАЯ ЧАСТЬ КАРТИНКИ  */
   margin-bottom: 30px;
 }
 
 .content__video-card {
-  /* РАСПРЕДЕЛЯЕТ ТЕКСТ И ФОТО В ПРАВОЙ ЧАСТИ */
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
 }
 
 .content__video-card-thumbnail {
-  /* ФОТО ПРАВАЯ ЧАСТЬ */
   width: 194px;
   height: 107px;
 }
@@ -166,12 +151,10 @@ html {
 }
 
 .search-form__fieldset {
-  /* РАМКА ГОРОД ВРЕМЯ СУТОК */
   border: 0;
 }
 
 .search-form__textfield {
-  /* ПОИСК ГОРОДОВ */
   appearance: none;
   font-family: 'Fira Sans Condensed';
   font-size: 18px;
@@ -189,7 +172,6 @@ html {
 }
 
 .button {
-  /* КНОПКИ */
   background-color: #1b1919;
   border: 1px solid #FFFFFF;
   font-weight: 700;
@@ -210,21 +192,12 @@ html {
 }
 
 .more-button {
-  /* КНОПКА ПОД СКРОЛЛОМ */
   width: 399px;
 }
 
 .search-form__submit-button {
-  /* КНОПКА НАЙТИ */
   width: 194px;
   margin-top: 20px;
-}
-
-.search-form__checkbox-list {
-  /* РАСПРЕДЕЛЕНИЕ ЧЕКБОКСОВ */
-  display: flex;
-  flex-direction: row;
-  gap: 15px;
 }
 
 .search-form__label {
@@ -235,6 +208,12 @@ html {
 
 .search-form__label-text:hover {
   text-decoration: underline;
+}
+
+.search-form__checkbox-list {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
 }
 
 .search-form__pseudo-checkbox {
